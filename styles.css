@@ -131,22 +131,22 @@
     margin: 0;
     width: 100%;
     position: absolute;
-    top: 0px; 
-    /* opacity: 90;  */
+    top: -1000px; 
+    opacity: 0; 
     transition: all 0.5s ease;
     padding-top: 3rem;
-    height: 50vh;
+    height: 70vh;
     z-index: -1;
     background: #dadbde
   }
 
   .navbar__menu.active {
-    background: #131313;
+    background: #c9d8d4;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 99;
-    height: 50vh;
+    height: 70vh;
     font-size: 1.6rem
   }
 
@@ -161,7 +161,7 @@
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: #fff;
+    background: black;
   }
 
   .navbar__item {
@@ -173,7 +173,7 @@
 
   .navbar_links {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: table;
   }
