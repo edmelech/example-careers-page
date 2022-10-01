@@ -102,8 +102,8 @@
   width: 100%;
   border: none;
   outline: none;
-  border-radius: 4px;
-  background: #288a70;
+  border-radius: 8px;
+  background: #009A83;
   color: #fff;
 }
 
@@ -284,13 +284,13 @@
   justify-content: center;
   align-self: center;
   text-decoration: none;
-  padding: 10px 10px;
+  padding: 20px 10px;
   height: 100%;
   width: 30%;
   border: none;
   outline: none;
-  border-radius: 10px;
-  background: #288a70;
+  border-radius: 8px;
+  background: #009A83;
   color: #fff;
 }
 
@@ -320,18 +320,57 @@
 .card-blub button {
   display: flex;
   justify-content: center;
+  font-weight: 700;
   align-items: center;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 30px 10px;
   height: 10%;
-  width: 40%;
+  width: 50%;
   border: none;
   outline: none;
-  border-radius: 4px;
-  background: #288a70;
+  border-radius: 8px;
+  background: #009A83;
   color: #fff;
 }
 
 .card img {
   border-radius: 8px;
+}
+
+.card__container {
+  position: relative;
+  text-align: center;
+
+}
+
+.card__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  width: 300px;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.card__content h2 {
+  line-height: 1.6;
+}
+
+.card__content button {
+  display: flex;
+  font-size: medium;
+  justify-content: center;
+  align-self: center;
+  margin-top: 30px ;
+  text-decoration: none;
+  padding: 20px 20px;
+  height: 10%;
+  width: 60%;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: #009A83;
+  color: #fff;
 }
