@@ -340,7 +340,8 @@
 .card__container {
   position: relative;
   text-align: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 .card__content {
@@ -379,7 +380,7 @@
   display:flex;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .review img {
@@ -420,3 +421,39 @@
   color: #fff;
 }
 
+.card__container-alex {
+  width: 600px;
+  height: 400px;
+  background: url(images/zjmlypzlupi1qk4zuykn.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 8px;
+  display: flex;
+}
+
+.alex__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 0.625rem;
+  width: 50%;
+}
+
+.alex__content h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* .border__card-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.border__card {
+  box-shadow: 2px;
+} */
