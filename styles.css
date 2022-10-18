@@ -130,6 +130,23 @@
     width: 50%;
   } */
 
+  .review button {
+    display: flex;
+    font-size: medium;
+    justify-content: center;
+    align-self: center;
+    margin-top: 30px ;
+    text-decoration: none;
+    padding: 20px 20px;
+    height: 10%;
+    width: 40%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #00A042;
+    color: #fff;
+  }
+
   .border__card-container {
     display: flex;
     justify-content: center;
@@ -247,6 +264,7 @@
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+
 }
 
 /* Hero Section CSS */
@@ -322,21 +340,22 @@
   margin: 5rem;
 }
 
-.card-blub {
+.card-blurb {
   /* padding-right: 4rem; */
   width: 500px;
 }
 
-.card-blub h1 {
+.card-blurb h1 {
   padding-bottom: 2rem;
+  /* padding-top: 2rem; */
 }
 
-.card-blub p {
+.card-blurb p {
   padding-bottom: 2rem;
   line-height: 1.6;
 }
 
-.card-blub button {
+.card-blurb button {
   display: flex;
   justify-content: center;
   font-weight: 700;
@@ -433,7 +452,6 @@
   text-decoration: none;
   padding: 20px 20px;
   height: 10%;
-  width: 10%;
   border: none;
   outline: none;
   border-radius: 8px;
