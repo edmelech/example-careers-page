@@ -401,6 +401,21 @@
 
 @media screen and (max-width: 1200px) {
 
+  .hero__button {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-decoration: none;
+    padding: 20px 10px;
+    height: 100%;
+    width: 40%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #009A83;
+    color: #fff;
+  }
+
   .navbar {
     background: white ;
     height: 100px;
